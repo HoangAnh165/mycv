@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Nguyen Van An</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f4f6f8; }
+  .container { max-width: 850px; margin: 40px auto; background: #fff; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border-radius: 8px; }
+  header { text-align: center; margin-bottom: 30px; border-bottom: 2px solid #2563eb; padding-bottom: 20px; }
+  h1 { font-size: 32px; color: #111827; margin-bottom: 8px; }
+  .contact { font-size: 14px; color: #6b7280; }
+  .contact span { margin: 0 12px; }
+  .contact a { color: #2563eb; text-decoration: none; }
+  h2 { font-size: 18px; color: #2563eb; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #e5e7eb; padding-bottom: 6px; margin-top: 24px; margin-bottom: 16px; }
+  h3 { font-size: 16px; color: #111827; margin-bottom: 4px; }
+  .meta { font-size: 13px; color: #6b7280; margin-bottom: 8px; }
+  .section { margin-bottom: 24px; }
+  ul { list-style: disc inside; padding-left: 18px; }
+  li { margin-bottom: 6px; }
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .skill-group { border: 1px solid #e5e7eb; border-radius: 6px; padding: 12px; background: #f9fafb; }
+  .skill-group b { display: block; font-size: 13px; color: #111827; margin-bottom: 6px; }
+  .skill-group ul { list-style: none; padding-left: 0; }
+  .skill-group li { font-size: 13px; margin-bottom: 3px; color: #4b5563; }
+  .project { margin-bottom: 16px; }
+  .project b { color: #111827; }
+  .project span { color: #6b7280; font-size: 13px; }
+  .note { font-size: 12px; color: #9ca3af; margin-top: 30px; border-top: 1px solid #e5e7eb; padding-top: 16px; text-align: center; }
+  @media print { body { background: #fff; } .container { box-shadow: none; border: none; padding: 0; max-width: 100%; } header { border-bottom: none; } h2 { color: #000; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>NGUYỄN VĂN AN</h1>
+    <div class="contact">
+      TP. Hồ Chí Minh | 0909.123.456 | an.nguyen@email.com
+      <span>|</span>
+      <a href="https://linkedin.com/in/nguyenvanan" target="_blank">linkedin.com/in/nguyenvanan</a>
+      <span>|</span>
+      <a href="https://github.com/nguyenvanan" target="_blank">github.com/nguyenvanan</a>
+    </div>
+  </header>
+
+  <div class="section">
+    <h2>Mục tiêu nghề nghiệp</h2>
+    <p>Kỹ sư phần mềm Fullstack có 3 năm kinh nghiệm phát triển ứng dụng web. Chuyên công nghệ React, Node.js và TypeScript. Mong đóng góp vào việc xây dựng sản phẩm kỹ thuật số chất lượng.</p>
+  </div>
+
+  <div class="section">
+    <h2>Kinh nghiệm làm việc</h2>
+    <div>
+      <h3>Công ty Cổ phần Công nghệ ABC — Kỹ sư Phần mềm Fullstack</h3>
+      <div class="meta">06/2022 – Hiện tại</div>
+      <ul>
+        <li>Phát triển và bảo trì nền tảng thương mại điện tử phục vụ hơn 100.000 người dùng active</li>
+        <li>Xây dựng RESTful API với Node.js, Express và PostgreSQL</li>
+        <li>Phát triển giao diện người dùng bằng React, Next.js và Tailwind CSS</li>
+        <li>Triển khai CI/CD, container hóa ứng dụng bằng Docker trên AWS</li>
+        <li>Làm việc theo Agile/Scrum, tham gia code review hằng tuần</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Công ty TNHH Giải pháp XYZ — Frontend Developer</h3>
+      <div class="meta">01/2020 – 05/2022</div>
+      <ul>
+        <li>Phát triển giao diện web quản trị nội dung bằng Vue.js và Nuxt.js</li>
+        <li>Tối ưu hóa tốc độ tải trang, giảm thời gian phản hồi xuống dưới 2 giây</li>
+        <li>Hợp tác với nhóm thiết kế triển khai giao diện responsive trên thiết bị di động</li>
+        <li>Sử dụng Git quản lý mã nguồn, làm việc trên môi trường Linux</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Học vấn</h2>
+    <div>
+      <h3>Đại học Bách Khoa Thành phố Hồ Chí Minh — Công nghệ Thông tin</h3>
+      <div class="meta">2018 – 2022 | GPA: 3.5/4.0 | Xét loại Tốt nghiệp</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Kỹ năng</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <b>Lập trình</b>
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <b>Frontend</b>
+        <ul>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Vue.js</li>
+          <li>Tailwind CSS</li>
+          <li>HTML5, CSS3</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <b>Backend</b>
+        <ul>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>NestJS</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <b>DevOps & Công cụ</b>
+        <ul>
+          <li>Git, GitHub</li>
+          <li>Docker</li>
+          <li>AWS (EC2, S3, Lambda)</li>
+          <li>CI/CD</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <b>Ngoại ngữ</b>
+        <ul>
+          <li>Tiếng Anh (B2, TOEIC 750)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Dự án nổi bật</h2>
+    <div class="project">
+      <b>Hệ thống quản lý kho hàng</b>
+      <span>React, Node.js, PostgreSQL</span>
+      <ul style="margin-top:6px;">
+        <li>Dashboard theo dõi hàng tồn kho và xuất nhập kho thời gian thực</li>
+        <li>Xác thực người dùng bằng JWT, phân quyền Admin/Staff</li>
+      </ul>
+    </div>
+    <div class="project">
+      <b>Ứng dụng đặt lịch khám bệnh</b>
+      <span>Next.js, Tailwind CSS, Supabase</span>
+      <ul style="margin-top:6px;">
+        <li>Bệnh nhân đặt lịch, bác sĩ quản lý lịch hẹn</li>
+        <li>Gửi thông báo nhắc nhở qua email</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Chứng chỉ</h2>
+    <ul>
+      <li>AWS Certified Cloud Practitioner (2023)</li>
+      <li>TOEIC 750 (2022)</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    Đây là bản CV mẫu. Hãy thay thế thông tin bằng dữ liệu thực tế của bạn trước khi sử dụng.
+  </div>
+</div>
+</body>
+</html>
